@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaMoTours</title>
+    <link rel="stylesheet" href="RaMo.css">
+    <link rel="stylesheet" href="carrusel.css">
+    <link rel="stylesheet" href="Logo.css">
+    <link rel="stylesheet" href="Principal.css">
+    <link rel="stylesheet" href="calendariocarrusel.css">
+    <link rel="stylesheet" href="paquetes.css">
+    <link rel="stylesheet" href="carruselpaquetes.css">
+</head>
+<body>
+    <div class="topLogo">
+        <img src="imagenesRaMo/Ra Mo Purple.png" alt="Logotipo de RaMoTours">
+    </div>
+    <div class="header">
+        <div class="HeaderLogo">
+            <img src="imagenesRaMo/RaMoTexto.png" alt="Logotipo de RaMoTours">
+        </div>
+        <div>
+            <div class="icon persona">
+                <img src="imagenesRaMo/persona.png" alt="Usuario">
+                <div class="tooltip"></div>
+                <div class="dropdown-menu">
+                    <a class="a" href="login.html">Ingreasar</a>
+                    <a class="a" href="register.html">Registrarse</a>
+                </div>
+            </div>
+            <div class="icon precio">
+                <img src="imagenesRaMo/precio.png" alt="Precio">
+                <div class="tooltip"></div>
+                <div class="dropdown-menu">
+                    <a class="a" href="#">Euro</a>
+                    <a class="a" href="#">Peso Mexicano</a>
+                    <a class="a" href="#">Dolar Americano</a>
+                </div>
+            </div>
+            <div class="icon cart">
+                <img src="imagenesRaMo/carrio de compras.png" alt="Carrito de compras">
+                <div class="tooltip"></div>
+                <div class="dropdown-menu">
+                    <a class="a" href="#">Ver Carrito</a>
+                </div>
+            </div>
+            <div class="icon info">
+                <img src="imagenesRaMo/acerca de.png" alt="Información">
+                <div class="tooltip"></div>
+                <div class="dropdown-menu">
+                    <a class="a" href="#">Acerca del Programador</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <a class="a" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Puebla
+        </a>
+        <a class="a" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Guadalajara
+        </a>
+        <a class="a" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Oaxaca
+        </a>
+    </div>
+    <div class="carousel">
+        <div class="carousel-slide" style="background-image: url('imagenesRaMo/img1.jpg');"></div>
+        <div class="carousel-slide" style="background-image: url('imagenesRaMo/img2.jpg');"></div>
+        <div class="carousel-slide" style="background-image: url('imagenesRaMo/img3.jpg');"></div>
+        <div class="carousel-slide" style="background-image: url('imagenesRaMo/img4.jpg');"></div>
+    </div>
+
+    <div class="details-and-carousel">
+        <div class="Detalles">
+            <img src="imagenesRaMo/Detalles Ra Mo.png" alt="Información">
+        </div>
+
+        <div class="carrusel-container">
+            <div class="carrusel">
+                <button class="prev">&#10094;</button>
+                <div class="carrusel-slide" style="background-image: url('imagenesRaMo/junio.jpg');"></div>
+                <div class="carrusel-slide" style="background-image: url('imagenesRaMo/julio.jpg');"></div>
+                <div class="carrusel-slide" style="background-image: url('imagenesRaMo/agosto.jpg');"></div>
+                <div class="carrusel-slide" style="background-image: url('imagenesRaMo/septiembre.jpg');"></div>
+                <div class="carrusel-slide" style="background-image: url('imagenesRaMo/octubre.jpg');"></div>
+                <div class="carrusel-slide" style="background-image: url('imagenesRaMo/noviembre.jpg');"></div>
+                <div class="carrusel-slide" style="background-image: url('imagenesRaMo/diciembre.jpg');"></div>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="paquetes">
+        <div class="paq">
+            <div class="paq-slide" style="background-image: url(imagenesRaMo/zocalo\ puebla.jpg);"></div>
+            <div class="paq-slide" style="background-image: url(imagenesRaMo/teatro\ puebla.jpg);"></div>
+        </div>
+    </div>
+
+    <div class="maps">
+        <a href="https://www.google.com.mx/maps/preview" target="_blank">
+            <img src="imagenesRaMo/maps.jpg" alt="Mapa">
+        </a>
+    </div>
+
+    <script src="carrusel.js"></script>
+    <script src="carruselpaquetes.js"></script>
+    <script src="menu.js"></script>
+    <script src="carruselcalendar.js"></script>
+
+</body>
+</html>

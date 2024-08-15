@@ -5,12 +5,13 @@ mysqli_set_charset($conexion, "utf8");
 $nombre = $_POST['nombre'];
 $password = $_POST['pass'];
 
-$consulta = "SELECT * FROM usuarios WHERE nombre='$nombre' AND pass='$password'";
-$resultado = mysqli_query($conexion, $consulta);
 
-$filas = mysqli_num_rows($resultado);
+$insertar = "INSERT INTO usuarios (nombre, pass) VALUES ('$nombre', '$password')";
+$resultado = mysqli_query($conexion, $insertar);
 
-if($filas > 0){ 
+$filas = mysqli_query($conexion, $insertar);;
+
+if($filas){ 
     header("Location: RaMo.html");
     exit();
 } else {
